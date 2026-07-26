@@ -51,9 +51,8 @@ Everything runs locally on your machine — no cloud services, no internet conne
 
 ### Option A: Using the Standalone Executable (Recommended)
 
-1. Obtain the `dist` folder containing `ZPLPrintBridge.exe`.
-2. Copy the entire `dist` folder anywhere on your computer (e.g., `C:\Program Files\ZPLPrintBridge\`).
-3. **Double-click** `ZPLPrintBridge.exe` to launch.
+1. Copy the `ZPLPrintBridge.exe` executable file anywhere on your computer (e.g., `C:\Program Files\ZPLPrintBridge\`).
+2. **Double-click** `ZPLPrintBridge.exe` to launch.
 
 No installation wizard, no Python, no dependencies — it just runs.
 
