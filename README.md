@@ -58,15 +58,6 @@ No installation wizard, no Python, no dependencies — it just runs.
 
 > **Tip:** Create a shortcut to `ZPLPrintBridge.exe` on your desktop or in your startup folder for easy access.
 
-### Option B: Running from Source (Developers)
-
-```powershell
-# Clone or download the project, then:
-python -m venv .venv
-.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-python app.py
-```
 
 ---
 
