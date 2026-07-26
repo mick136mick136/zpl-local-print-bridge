@@ -428,35 +428,11 @@ A: Yes. Any printer that appears in Windows "Devices and Printers" can be target
 **Q: Why does my printer status show "Offline"?**  
 A: The printer may be turned off, disconnected, paused, or in an error state. Check the printer's connection and power.
 
-**Q: Can I run the application without a system tray?**  
-A: The tray provides the primary user interface. If you only need the API, you can run just the server:
-
-```powershell
-pip install -r requirements.txt
-uvicorn app:app --host 127.0.0.1 --port 8000
-```
-
 But you'll miss the tray convenience features.
 
 **Q: Does the application auto-update?**  
 A: No. To update, replace `ZPLPrintBridge.exe` with the new version.
 
----
-
-## Building from Source
-
-If you're a developer and want to build the executable yourself:
-
-```powershell
-# From the project root:
-.\build_exe.bat
-```
-
-This script:
-1. Creates a Python virtual environment (if missing).
-2. Installs dependencies (FastAPI, uvicorn, pywin32, pystray, Pillow, requests, PyInstaller).
-3. Runs PyInstaller to bundle `app.py` into a single `ZPLPrintBridge.exe`.
-4. Output is placed in the `dist\` folder.
 
 ---
 
